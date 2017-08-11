@@ -5,6 +5,7 @@ package com.hasssektor.handler;
  */
 public interface CrawlerHandler {
 
-    void crawlUsers(String initialUser);
+    void startCrawling(String topicId);
 
+    void updateUserData();
 }
